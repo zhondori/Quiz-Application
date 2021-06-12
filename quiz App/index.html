@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Application</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <h1 class="project-name">Quiz Application</h1>
+    <div class="quiz-container">
+        <div class="quiz-header">
+            <h2 id="quiz-content">Quiz Application</h2>
+        </div>
+        <div class="quiz-body">
+            <div class="a main">
+                <input type="radio" name="radio" id="a">
+                <h3 class="var1">A variant</h3>
+            </div>
+            <div class="b main">
+                <input type="radio" name="radio" id="b">
+                <h3 class="var2">B variant</h3>
+            </div>
+            <div class="c main">
+                <input type="radio" name="radio" id="c">
+                <h3 class="var3">C variant</h3>
+            </div>
+            <div class="correct main">
+                <input type="radio" name="radio" id="correct">
+                <h3 class="var4">D variant</h3>
+            </div>
+            <div class="free">
+                <h3>
+                    Tabriklaymiz. Siz savollarga
+                    javob berdingiz va Sizning natijangiz <span class="result"></span>
+                </h3>
+                <p>
+                    Qayta ishtirok etmoqchi 
+                    bo'lsangiz bu yerga bosing.
+                </p>
+                <a id="reverse" href="#">Qayta urinish</a>
+            </div>
+        </div>
+        <button type="button" id="btn">Davom etish</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
